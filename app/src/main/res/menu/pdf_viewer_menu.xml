@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_jump_page"
+        android:title="Página"
+        app:actionLayout="@layout/menu_page_jump"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_search_text"
+        android:title="Buscar texto"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_orientation"
+        android:title="Orientación"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_auto_orientation"
+                android:title="Automática"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_portrait_orientation"
+                android:title="Vertical"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_landscape_orientation"
+                android:title="Horizontal"
+                android:checkable="true" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_reading"
+        android:title="Apariencia y pantalla"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_dark_mode"
+                android:title="Modo oscuro"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_light_mode"
+                android:title="Modo claro"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_sepia_mode"
+                android:title="Modo sepia"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_invert_pdf"
+                android:title="Invertir colores del PDF"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_keep_screen_on"
+                android:title="Mantener pantalla encendida"
+                android:checkable="true" />
+            <item
+                android:id="@+id/action_reading_brightness"
+                android:title="@string/action_reading_brightness" />
+            <item
+                android:id="@+id/action_reset_reading_brightness"
+                android:title="@string/action_reset_reading_brightness" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_bookmarks"
+        android:title="Marcadores"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_save_personal_bookmark"
+                android:title="Guardar esta página" />
+            <item
+                android:id="@+id/action_personal_bookmarks"
+                android:title="Mis marcadores" />
+            <item
+                android:id="@+id/action_pdf_outline"
+                android:title="Índice del PDF" />
+        </menu>
+    </item>
+
+</menu>

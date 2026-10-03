@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lector PDF</string>
+    <string name="title_home">Todos</string>
+    <string name="title_dashboard">Reciente</string>
+    <string name="action_reading_brightness">Brillo de lectura</string>
+    <string name="action_reset_reading_brightness">Restablecer brillo</string>
+    <string name="brightness_dialog_title">Brillo de lectura</string>
+    <string name="brightness_percentage">%1$d%%</string>
+    <string name="brightness_apply_error">No se pudo aplicar el brillo</string>
+    <string name="brightness_restore_error">No se pudo restaurar el brillo inicial</string>
+</resources>

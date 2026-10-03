@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pageJumpInput"
+    android:layout_width="72dp"
+    android:layout_height="wrap_content"
+    android:autofillHints="none"
+    android:contentDescription="Número de página"
+    android:hint="Pág."
+    android:imeOptions="actionDone"
+    android:inputType="number"
+    android:maxLines="1"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp"
+    android:selectAllOnFocus="true"
+    android:textColor="?attr/colorOnPrimary"
+    android:textColorHint="?attr/colorOnPrimary" />
